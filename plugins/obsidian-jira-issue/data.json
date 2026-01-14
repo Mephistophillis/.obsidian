@@ -1,0 +1,211 @@
+{
+  "accounts": [
+    {
+      "alias": "Maks L",
+      "host": "https://jira.beauit.com",
+      "authenticationType": "BEARER_TOKEN",
+      "password": "",
+      "priority": 1,
+      "color": "#58dfa7",
+      "use2025Api": false,
+      "cache": {
+        "statusColor": {},
+        "customFieldsIdToName": {
+          "10000": "Разработка",
+          "10100": "Рейтинг",
+          "10101": "Спринт",
+          "10102": "Ссылка на эпик",
+          "10103": "Статус эпика",
+          "10104": "Имя эпика",
+          "10105": "Цвет эпика",
+          "10106": "Исторические точки",
+          "10300": "Отмечено",
+          "10400": "Категория (Тартилла)",
+          "10500": "Checklist",
+          "10600": "Team",
+          "10601": "Parent Link",
+          "10602": "Target start",
+          "10603": "Target end",
+          "10604": "Original story points",
+          "10700": "Трекер заказчика",
+          "10701": "Бэк/Фронт"
+        },
+        "customFieldsNameToId": {
+          "Checklist": "10500",
+          "Имя эпика": "10104",
+          "Цвет эпика": "10105",
+          "Исторические точки": "10106",
+          "Трекер заказчика": "10700",
+          "Бэк/Фронт": "10701",
+          "Рейтинг": "10100",
+          "Спринт": "10101",
+          "Отмечено": "10300",
+          "Ссылка на эпик": "10102",
+          "Статус эпика": "10103",
+          "Team": "10600",
+          "Parent Link": "10601",
+          "Target start": "10602",
+          "Target end": "10603",
+          "Original story points": "10604",
+          "Разработка": "10000",
+          "Категория (Тартилла)": "10400"
+        },
+        "customFieldsType": {
+          "10000": {
+            "type": "any",
+            "custom": "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummary",
+            "customId": 10000
+          },
+          "10100": {
+            "type": "any",
+            "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+            "customId": 10100
+          },
+          "10101": {
+            "type": "array",
+            "items": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+            "customId": 10101
+          },
+          "10102": {
+            "type": "any",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+            "customId": 10102
+          },
+          "10103": {
+            "type": "option",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-status",
+            "customId": 10103
+          },
+          "10104": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-label",
+            "customId": 10104
+          },
+          "10105": {
+            "type": "string",
+            "custom": "com.pyxis.greenhopper.jira:gh-epic-color",
+            "customId": 10105
+          },
+          "10106": {
+            "type": "number",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+            "customId": 10106
+          },
+          "10300": {
+            "type": "array",
+            "items": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+            "customId": 10300
+          },
+          "10400": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+            "customId": 10400
+          },
+          "10500": {
+            "type": "array",
+            "items": "checklist-item",
+            "custom": "com.okapya.jira.checklist:checklist",
+            "customId": 10500
+          },
+          "10600": {
+            "type": "any",
+            "custom": "com.atlassian.teams:rm-teams-custom-field-team",
+            "customId": 10600
+          },
+          "10601": {
+            "type": "any",
+            "custom": "com.atlassian.jpo:jpo-custom-field-parent",
+            "customId": 10601
+          },
+          "10602": {
+            "type": "date",
+            "custom": "com.atlassian.jpo:jpo-custom-field-baseline-start",
+            "customId": 10602
+          },
+          "10603": {
+            "type": "date",
+            "custom": "com.atlassian.jpo:jpo-custom-field-baseline-end",
+            "customId": 10603
+          },
+          "10604": {
+            "type": "number",
+            "custom": "com.atlassian.jpo:jpo-custom-field-original-story-points",
+            "customId": 10604
+          },
+          "10700": {
+            "type": "string",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:url",
+            "customId": 10700
+          },
+          "10701": {
+            "type": "option",
+            "custom": "com.atlassian.jira.plugin.system.customfieldtypes:radiobuttons",
+            "customId": 10701
+          }
+        },
+        "jqlAutocomplete": {
+          "fields": [],
+          "functions": {}
+        }
+      },
+      "bareToken": ""
+    }
+  ],
+  "apiBasePath": "/rest/api/latest",
+  "cacheTime": "15m",
+  "searchResultsLimit": 10,
+  "cache": {
+    "columns": []
+  },
+  "colorSchema": "FOLLOW_OBSIDIAN",
+  "inlineIssueUrlToTag": true,
+  "inlineIssuePrefix": "JIRA:",
+  "showColorBand": true,
+  "showJiraLink": true,
+  "searchColumns": [
+    {
+      "type": "KEY",
+      "compact": false
+    },
+    {
+      "type": "SUMMARY",
+      "compact": false
+    },
+    {
+      "type": "TYPE",
+      "compact": true
+    },
+    {
+      "type": "CREATED",
+      "compact": false
+    },
+    {
+      "type": "UPDATED",
+      "compact": false
+    },
+    {
+      "type": "REPORTER",
+      "compact": false
+    },
+    {
+      "type": "ASSIGNEE",
+      "compact": false
+    },
+    {
+      "type": "PRIORITY",
+      "compact": true
+    },
+    {
+      "type": "STATUS",
+      "compact": false
+    }
+  ],
+  "logRequestsResponses": false,
+  "logImagesFetch": false,
+  "jqlAutocomplete": null,
+  "customFieldsIdToName": null,
+  "customFieldsNameToId": null,
+  "statusColorCache": null
+}

@@ -1,0 +1,309 @@
+{
+  "main": {
+    "id": "aa5c7df77586ac01",
+    "type": "split",
+    "children": [
+      {
+        "id": "f929497292feb6be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26901bf60014c9f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00472f78da2f857d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b01d6b5736a62f18",
+        "type": "tabs",
+        "dimension": 60.880195599022,
+        "children": [
+          {
+            "id": "27bdca80815060de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c41655be0f25d127",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#unity",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "87f778d0e85b2084",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c93827f81a8fb267",
+        "type": "tabs",
+        "dimension": 39.119804400978,
+        "children": [
+          {
+            "id": "df0cd8ac7a6df1c3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5026054382324
+  },
+  "right": {
+    "id": "c77e9c11ce34585c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb41cc44ebc5f9e9",
+        "type": "tabs",
+        "dimension": 41.3953488372093,
+        "children": [
+          {
+            "id": "6597590c736a895b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for calendar-default"
+            }
+          },
+          {
+            "id": "8b4cee0c005bb418",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from calendar-default"
+            }
+          },
+          {
+            "id": "17601396b393357f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "cc1d0c4fb634cc67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TaskNotes/Views/calendar-default.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of calendar-default"
+            }
+          },
+          {
+            "id": "1b38253b5dfcaa32",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "cd8cb7d20fa1d1df",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "07a90de22c219b9b",
+        "type": "tabs",
+        "dimension": 23.255813953488367,
+        "children": [
+          {
+            "id": "5f0f48268639e5dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      },
+      {
+        "id": "12292636b7ed4355",
+        "type": "tabs",
+        "dimension": 35.348837209302324,
+        "children": [
+          {
+            "id": "b0d06797ede18dc6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": true,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": true,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": true,
+      "graph:Open graph view": true,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": true,
+      "obsidian-kanban:Create new board": true,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "26901bf60014c9f1",
+  "lastOpenFiles": [
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "Courses/Unity/Атакующие характеристики.canvas",
+    "Journal/01 - Daily/2026-01-14.md",
+    "notes/Untitled.canvas",
+    "notes/Welcome.md",
+    "notes",
+    "Courses/Unity/Система характеристик персонажа.md",
+    "Courses/Unity/Состав курса.md",
+    "Courses/Unity/Система характеристик.canvas",
+    "Courses/Unity/Сайт по курсу.md",
+    "Shared/TEMP.md",
+    "Journal/01 - Daily/2026-01-13.md",
+    "Courses/Unity/Защитные характеристики.canvas",
+    "Courses/Unity/Defense stats.canvas",
+    "tmpclaude-88b1-cwd",
+    "Courses/Unity/Offensive stats.canvas",
+    "tmpclaude-50e9-cwd",
+    "tmpclaude-8bd1-cwd",
+    "tmpclaude-f6e9-cwd",
+    "tmpclaude-e847-cwd",
+    "tmpclaude-fb94-cwd",
+    "TaskNotes/Tasks/T-20.11 Additional Enemies - Очистка и завершение проекта.md",
+    "TaskNotes/Tasks/T-20.10 Additional Enemies - Враг Босс (часть 3).md",
+    "TaskNotes/Tasks/T-20.9 Additional Enemies - Враг Босс (часть 2).md",
+    "TaskNotes/Tasks/T-20.8 Additional Enemies - Враг Босс (часть 1).md",
+    "TaskNotes/Tasks/T-20.7 Additional Enemies - Враг Маг (часть 3).md",
+    "TaskNotes/Tasks/T-20.6 Additional Enemies - Враг Маг (часть 2).md",
+    "TaskNotes/Tasks/T-20.5 Additional Enemies - Враг Маг (часть 1).md",
+    "TaskNotes/Tasks/T-20.4 Additional Enemies - Враг Лучник (часть 2).md",
+    "TaskNotes/Tasks/T-20.3 Additional Enemies - Враг Лучник (часть 1).md",
+    "TaskNotes/Tasks/T-20.2 Additional Enemies - Враг Слайм (часть 2).md",
+    "TaskNotes/Tasks/T-20.1 Additional Enemies - Враг Слайм (часть 1).md",
+    "TaskNotes/Tasks/T-19.7 Dialogue System - Очистка и завершение проекта.md",
+    "TaskNotes/Tasks/T-19.6 Dialogue System - Исправления и другие действия.md",
+    "TaskNotes/Tasks/T-19.5 Dialogue System - Множественный выбор.md",
+    "TaskNotes/Tasks/T-19.4 Dialogue System - Действия в диалогах.md",
+    "TaskNotes/Tasks/T-19.3 Dialogue System - Эффект печатной машинки.md",
+    "TaskNotes/Tasks/T-19.2 Dialogue System - UI диалогов.md",
+    "TaskNotes/Tasks/T-19.1 Dialogue System - Данные диалогов.md",
+    "Untitled.canvas",
+    "Tasks/Unity Course Tasks.canvas",
+    "Pasted image 20251209180339.png"
+  ]
+}

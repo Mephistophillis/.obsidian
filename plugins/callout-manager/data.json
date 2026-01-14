@@ -1,0 +1,44 @@
+{
+  "callouts": {
+    "custom": [
+      "calendar",
+      "time"
+    ],
+    "settings": {
+      "calendar": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-days"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "39, 170, 78"
+          }
+        }
+      ],
+      "time": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-clock",
+            "color": "32, 177, 102"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
